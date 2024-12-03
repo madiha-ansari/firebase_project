@@ -1,0 +1,64 @@
+.main-sec {
+    height: 100% !important;
+    background: white;
+    display: flex;
+    align-items: center !important;
+}
+
+.bg-img {
+    width: 400px !important;
+    height: 500px !important;
+}
+
+.custom-row {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.img-div {
+    display: flex;
+    justify-content: left;
+}
+
+.custom-btn {
+    background-color: white;
+    color: #30b8f4;
+    font-weight: bold;
+    border: 2px solid #30b8f4;
+}
+
+.custom-btn:hover {
+    background-color: #30b8f4;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.custom-text{
+    color: #30b8f4;
+    font-weight: bold;
+}
+
+.login-btns{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-login-btn{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.custom-text2{
+    color: #2e1042;
+}
+
+.link{
+    text-decoration: underline;
+}
+
+.custom-ok-button {
+    background-color: #30b8f4 !important; /* Replace #ff0000 with your desired color */
+    color: #ffffff !important; /* Optional: Change text color for better contrast */
+  }
