@@ -52,8 +52,6 @@ addingPost.addEventListener("click", async () => {
             });
     }
 
-   
-
     const docRef = await addDoc(collection(db, "posts"), {
       title: titleValue,
       descript: descriptValue,
@@ -77,8 +75,6 @@ addingPost.addEventListener("click", async () => {
     });
   }
  
-
-
 // function deletepost(event) {
   let deletingPost = document.getElementById("deletePost");
   deletingPost.addEventListener("click",(event)=> {
@@ -122,10 +118,8 @@ editingPost.addEventListener("click", async ()=> {
     timer: 1500,
   });
   setTimeout(function () {
-
     previousTitle.innerHTML = formValues[0];
     previousDescription.innerHTML = formValues[1];
   }, 1500)
-
 })
 });

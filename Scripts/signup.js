@@ -41,7 +41,6 @@ Swal.fire({
     });    return;
   }
 
-
   // Validate email and password format
   if (!validateEmail(emailValue)) {
     Swal.fire({
@@ -84,6 +83,5 @@ Swal.fire({
     });
 });
 
-
-
+// export
 export {email, password}

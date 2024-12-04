@@ -1,5 +1,4 @@
-import {
-  
+import {  
   getAuth,
   onAuthStateChanged,
   sendEmailVerification,
@@ -166,7 +165,6 @@ onAuthStateChanged(auth, (user) => {
             document.getElementById("username").textContent = updatedUserData.userName;
             document.getElementById("aboutInfo").textContent = updatedUserData.aboutInfo;
           };
-
           //   reader.readAsDataURL(result.value.profilePicture);
         }
       });

@@ -1,6 +1,8 @@
 import { signInWithEmailAndPassword ,getAuth, GoogleAuthProvider, signInWithPopup} from "./firebase.js";
+
 import {email, password} from "./signup.js";
 
+// get auth
 const auth = getAuth();
 
 let signInPassword = document.getElementById("signInPassword")
@@ -39,8 +41,6 @@ loginBtn && loginBtn.addEventListener("click", () => {
   }
 });
 
-
-
 document.getElementById("signinForm").addEventListener("submit", function (event) {
   // location.href = "profile.html";
   if (signInEmail === email){
@@ -58,7 +58,6 @@ document.getElementById("signinForm").addEventListener("submit", function (event
     });
   }
 });
-
 
 const provider = new GoogleAuthProvider();
 

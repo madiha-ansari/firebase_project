@@ -1,3 +1,21 @@
+/* styling  */
+.app{
+background-color: blue !important;
+padding: 10px !important;
+/* color: white !important; */
+}
+
+/* nafbar */
+.navbar-brand{
+    color: white !important;
+}
+
+/* btn */
+.btn{
+    color: white !important;
+    background-color: chocolate !important;
+}
+
 .main-sec {
     height: 100% !important;
     background: white;
@@ -54,10 +72,12 @@
     color: #2e1042;
 }
 
+/* style */
 .link{
     text-decoration: underline;
 }
 
+/* custome btn */
 .custom-ok-button {
     background-color: #30b8f4 !important; /* Replace #ff0000 with your desired color */
     color: #ffffff !important; /* Optional: Change text color for better contrast */
